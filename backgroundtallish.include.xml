@@ -1,0 +1,168 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Information ShortName="Zaparoo NFC" LongName="Zaparoo NFC" Description="Stickers for Zaparoo NFC Cards" Author="AchillesPDX"/>
+	<!-- actual size on monitor -->
+	<!-- <Viewport Color="#00000000" Width="232" Height="367"/> -->
+	<Viewport Color="#00000000" Width="1276" Height="2020"/>
+	
+	<Drawings>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="10%" Y="25%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="35%" Y="25%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="60%" Y="25%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="85%" Y="25%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="15%" Y="35%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="40%" Y="35%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="65%" Y="35%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="90%" Y="35%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="7.5%" Y="45%" Width="30%" Height="30%" Anchor="VCenterRight"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>	
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="20%" Y="45%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="45%" Y="45%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="70%" Y="45%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="95%" Y="45%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="0%" Y="55%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="25%" Y="55%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="50%" Y="55%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="75%" Y="55%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="100%" Y="55%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="5%" Y="65%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="30%" Y="65%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="55%" Y="65%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="80%" Y="65%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="105%" Y="65%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>	
+		
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="10%" Y="75%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="35%" Y="75%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="60%" Y="75%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="85%" Y="75%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="15%" Y="85%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="40%" Y="85%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="65%" Y="85%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="90%" Y="85%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="7.5%" Y="95%" Width="30%" Height="30%" Anchor="VCenterRight"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>	
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="20%" Y="95%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="45%" Y="95%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="70%" Y="95%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png">
+			<Display X="95%" Y="95%" Width="30%" Height="30%" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+	</Drawings>
+</ImageComposition>

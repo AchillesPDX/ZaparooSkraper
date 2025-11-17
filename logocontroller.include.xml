@@ -1,0 +1,53 @@
+﻿<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Information ShortName="Zaparoo NFC" LongName="Zaparoo NFC" Description="Stickers for Zaparoo NFC Cards" Author="AchillesPDX"/>
+	<!-- actual size on monitor -->
+	<!-- <Viewport Color="#00000000" Width="232" Height="367"/> -->
+	<Viewport Color="#00000000" Width="1276" Height="390"/>
+	
+	<Drawings>
+		<Item Type="LocalFile" LocalFilePath="artlayers\zaparoocard_Background.png">
+			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
+		</Item>
+		
+		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsNotInTheList:3,9,10,20,127,26,40,14,27,48,115">
+			<Display X="25%" Y="242.4" Width="50%" Height="1010" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="-30.0"/>
+		</Item>
+<!-- regional controllers -->		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%_%REGION%.png" IfSystem="IsInTheList:3">
+			<Display X="25%" Y="242.4" Width="50%" Height="1010" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="-30.0"/>
+		</Item>
+		
+<!-- tall -->		
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsInTheList:9,10,40,48,115">
+			<Display X="25%" Y="242.4" Width="2000" Height="650" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>	
+		
+<!-- tallish -->
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsInTheList:20">
+			<Display X="20%" Y="242.4" Width="2000" Height="650" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
+		</Item>
+
+<!-- square -->
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsInTheList:127,26,14,27">
+			<Display X="25%" Y="242.4" Width="70%" Height="1010" Anchor="VCenterHCenter"/>
+			<Rotation XOffset="50%" YOffset="50%" Angle="-30.0"/>
+		</Item>			
+
+<!-- Regional System Logos -->
+		<Item Type="LocalFile" LocalFilePath="systemlogos\%SYSTEM%.png" IfSystem="IsNotInTheList:1,3,4,20,31,114">
+			<Display X="25%" Y="242.4" Width="40%" Height="50%" Anchor="VCenterHCenter"/>
+		</Item>		
+		<Item Type="LocalFile" LocalFilePath="systemlogos\%SYSTEM%_%REGION%.png" IfSystem="IsInTheList:1,3,4,20,31,114">
+			<Display X="25%" Y="242.4" Width="40%" Height="50%" Anchor="VCenterHCenter"/>
+		</Item>
+		
+		<Item Type="LocalFile" LocalFilePath="artlayers\zaparoocard_Overlay.png">
+			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
+		</Item>		
+	</Drawings>
+</ImageComposition>

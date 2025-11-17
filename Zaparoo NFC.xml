@@ -1,0 +1,82 @@
+﻿<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Information ShortName="Zaparoo NFC" LongName="Zaparoo NFC" Description="Stickers for Zaparoo NFC Cards" Author="AchillesPDX"/>
+	<!-- actual size on monitor -->
+	<!-- <Viewport Color="#00000000" Width="232" Height="367"/> -->
+	<Viewport Color="#00000000" Width="1276" Height="2020"/>
+	
+	<Drawings>
+		<Item Type="LocalFile" LocalFilePath="artlayers\zaparoocard_Background.png">
+			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
+		</Item>
+
+		<Item Type="Include" LocalFilePath="background.include.xml" IfSystem="IsNotInTheList:3,9,10,20,127,26,40,14,27,48,115">
+			<Display X="0" Y="0" Width="1276" Height="2020"/>
+		</Item>
+
+<!-- Regional Background (Looking at you Famicom...) -->
+		<Item Type="Include" LocalFilePath="background_regional.include.xml" IfSystem="IsInTheList:3">
+			<Display X="0" Y="0" Width="1276" Height="2020"/>
+		</Item>
+		
+		<Item Type="Include" LocalFilePath="backgroundtall.include.xml" IfSystem="IsInTheList:9,10,40,48,115">
+			<Display X="0" Y="0" Width="1276" Height="2020"/>
+		</Item>		
+
+		<Item Type="Include" LocalFilePath="backgroundtallish.include.xml" IfSystem="IsInTheList:20">
+			<Display X="0" Y="0" Width="1276" Height="2020"/>
+		</Item>	
+
+		<Item Type="Include" LocalFilePath="backgroundsquare.include.xml" IfSystem="IsInTheList:127,26,14,27">
+			<Display X="0" Y="0" Width="1276" Height="2020"/>
+		</Item>	
+				
+		<Item Type="Include" LocalFilePath="logocontroller.include.xml">
+			<Display X="0" Y="0" Width="1276" Height="390"/>
+		</Item>
+		
+		<Item Type="Box2DFront" IfSystem="IsNotInTheList:4,14">
+			<Display X="50%" Y="59.3%" Width="85%" Height="72%" Anchor="VCenterHCenter" Transparency="100"/>
+			<Children Reference="Parent">
+				<Item Type="LocalFile" LocalFilePath="helpers\shadow.png">
+					<Display X="50%" Y="50%" Width="110%" Height="110%" KeepRatio="false" Anchor="VCenterHCenter" Transparency="0"/>
+				</Item>
+			</Children>
+		</Item>
+		<Item Type="Box2DFront" IfSystem="IsNotInTheList:4,14">
+			<Display X="50%" Y="59.3%" Width="85%" Height="72%" Anchor="VCenterHCenter" KeepRatio="true" Transparency="0"/>
+		</Item>	
+		
+		<!-- Rotate SNES / N64 boxes only if they're horizontal -->
+		<Item Type="Box2DFront" IfSystem="IsInTheList:4,14" IfOrientation="IsLandscape" TestOnly="true">
+			<Children>
+				<Item Type="Include" LocalFilePath="boxart.include.xml" IfSystem="IsInTheList:4,14">
+					<Display X="50%" Y="59.3%" Width="126%" Height="100%" Anchor="VCenterHCenter" KeepRatio="true" Transparency="0"/>
+					<Rotation XOffset="50%" YOffset="50%" Angle="90.0"/>
+				</Item>
+			</Children>
+		</Item>
+		<!-- Keep SNES / N64 boxes vertical if they're vertical -->
+		<Item Type="Box2DFront" IfSystem="IsInTheList:4,14" IfOrientation="IsPortrait" TestOnly="true">
+			<Children>
+				<Item Type="Box2DFront">
+					<Display X="50%" Y="59.3%" Width="85%" Height="72%" Anchor="VCenterHCenter" Transparency="100"/>
+					<Children Reference="Parent">
+						<Item Type="LocalFile" LocalFilePath="helpers\shadow.png">
+							<Display X="50%" Y="50%" Width="110%" Height="110%" KeepRatio="false" Anchor="VCenterHCenter" Transparency="0"/>
+						</Item>
+					</Children>
+				</Item>
+				<Item Type="Box2DFront">
+					<Display X="50%" Y="59.3%" Width="85%" Height="72%" Anchor="VCenterHCenter" KeepRatio="true" Transparency="0"/>
+				</Item>	
+			</Children>
+		</Item>		
+		
+		<Item Type="LocalFile" LocalFilePath="artlayers\zaparoocard_Overlay.png">
+			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
+		</Item>
+		<Item Type="LocalFile" LocalFilePath="artlayers\zaparoocard_WhiteMask.png">
+			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
+		</Item>		
+	</Drawings>
+</ImageComposition>

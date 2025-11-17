@@ -1,0 +1,20 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Information ShortName="Zaparoo NFC" LongName="Zaparoo NFC" Description="Stickers for Zaparoo NFC Cards" Author="AchillesPDX"/>
+	<!-- actual size on monitor -->
+	<!-- <Viewport Color="#00000000" Width="232" Height="367"/> -->
+	<Viewport Color="#00000000" Width="2000" Height="2000"/>
+	
+	<Drawings>
+		<Item Type="Box2DFront">
+			<Display X="50%" Y="50%" Width="90%" Height="90%" Anchor="VCenterHCenter" Transparency="100"/>
+			<Children Reference="Parent">
+				<Item Type="LocalFile" LocalFilePath="helpers\shadow.png">
+					<Display X="50%" Y="50%" Width="110%" Height="110%" KeepRatio="false" Anchor="VCenterHCenter" Transparency="0"/>
+				</Item>
+			</Children>
+		</Item>
+		<Item Type="Box2DFront">
+			<Display X="50%" Y="50%" Width="90%" Height="90%" Anchor="VCenterHCenter" Transparency="0"/>
+		</Item>
+	</Drawings>
+</ImageComposition>
