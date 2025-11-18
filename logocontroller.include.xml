@@ -10,7 +10,7 @@
 		</Item>
 		
 		
-		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsNotInTheList:3,9,10,20,127,26,40,14,27,48,115">
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsNotInTheList:3,9,10,20,64,127,26,40,14,27,48,115">
 			<Display X="25%" Y="242.4" Width="50%" Height="1010" Anchor="VCenterHCenter"/>
 			<Rotation XOffset="50%" YOffset="50%" Angle="-30.0"/>
 		</Item>
@@ -27,7 +27,7 @@
 		</Item>	
 		
 <!-- tallish -->
-		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsInTheList:20">
+		<Item Type="LocalFile" LocalFilePath="controllers\controllers_%SYSTEM%.png" IfSystem="IsInTheList:20,64">
 			<Display X="20%" Y="242.4" Width="2000" Height="650" Anchor="VCenterHCenter"/>
 			<Rotation XOffset="50%" YOffset="50%" Angle="60.0"/>
 		</Item>

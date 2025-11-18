@@ -9,7 +9,7 @@
 			<Display X="0%" Y="0%" Width="1276" Height="2020"/>
 		</Item>
 
-		<Item Type="Include" LocalFilePath="background.include.xml" IfSystem="IsNotInTheList:3,9,10,20,127,26,40,14,27,48,115">
+		<Item Type="Include" LocalFilePath="background.include.xml" IfSystem="IsNotInTheList:3,9,10,20,64,127,26,40,14,27,48,115">
 			<Display X="0" Y="0" Width="1276" Height="2020"/>
 		</Item>
 
@@ -22,7 +22,7 @@
 			<Display X="0" Y="0" Width="1276" Height="2020"/>
 		</Item>		
 
-		<Item Type="Include" LocalFilePath="backgroundtallish.include.xml" IfSystem="IsInTheList:20">
+		<Item Type="Include" LocalFilePath="backgroundtallish.include.xml" IfSystem="IsInTheList:20,64">
 			<Display X="0" Y="0" Width="1276" Height="2020"/>
 		</Item>	
 
